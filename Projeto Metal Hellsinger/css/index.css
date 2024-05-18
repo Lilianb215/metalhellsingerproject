@@ -1,0 +1,75 @@
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: gray;
+    background-image: url(../img/backimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+    color: #f5ae07;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /* Alterado de height para min-height */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 174, 7);
+    transition: color 0.3s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+li {
+    font-size: 2vw;
+    font-family: "Sedan SC", serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(239, 223, 172);
+}
+
+.bi-suit-diamond-fill {
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 1.5vw;
+}
+
+footer {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    li {
+        font-size: 5vw;
+    }
+    .bi-suit-diamond-fill {
+        font-size: 3vw;
+    }
+    ul {
+        gap: 20px;
+    }
+}

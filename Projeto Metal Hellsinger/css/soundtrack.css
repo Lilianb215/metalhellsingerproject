@@ -1,0 +1,203 @@
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-attachment: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(245, 174, 7);
+  transition: color 0.3s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 4vw;
+  font-family: "Sedan SC", serif;
+  margin: 50px;
+}
+
+a:hover {
+  color: rgb(239, 223, 172);
+}
+
+
+.bi-suit-diamond-fill::before {
+  color: aliceblue;
+}
+
+footer {
+  padding: 20px 0;
+  padding-top: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  li {
+      font-size: 8vw;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Sedan SC", serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: justify;
+  font-family: "Sedan SC", serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: #fff;
+  font-size: 24px;
+  transition: background-color 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.caption-container {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #ddd;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.column {
+  flex: 1;
+  max-width: 12.5%;
+  padding: 5px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.column img:hover, .column img.active {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.demo:hover {
+  opacity: 1;
+}
+
+.return-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-family: "Sedan SC", serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.return-button i {
+  margin-right: 10px;
+}
+
+.return-button:hover {
+  color: rgb(239, 223, 172);
+}
+
+@media screen and (max-width: 768px) {
+  .return-button {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+  .return-button i {
+      margin-right: 5px;
+  }
+}
